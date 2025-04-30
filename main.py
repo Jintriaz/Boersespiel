@@ -39,6 +39,7 @@ def save_users(users):
     with open(USERS_FILE, "w") as f:
         json.dump(users, f, indent=4)
 
+@st.cache_data(ttl=3600)
 def get_price(symbol):
     try:
         ticker = yf.Ticker(symbol)
@@ -349,6 +350,40 @@ elif page == "📉 Shorten":
     if st.button("Shorten"):
         st.success(f"{quantity} Aktien von {symbol} erfolgreich geshortet!")
 
+elif page == "🏆 Rangliste":
+    st.subheader("🏆 Rangliste")
+
+    leaderboard_data = []
+
+    for username, data in users.items():
+        cash = data["cash"]
+        portfolio_value = 0.0
+        for sym, qty in data["portfolio"].items():
+            price = get_price(sym)
+            if price:
+                portfolio_value += price * qty
+        total_value = cash + portfolio_value
+        leaderboard_data.append({
+            "Benutzer": username,
+            "Gesamtwert": total_value,
+            "Bargeld": cash,
+            "Depotwert": portfolio_value
+        })
+
+    leaderboard_df = pd.DataFrame(leaderboard_data)
+    leaderboard_df = leaderboard_df.sort_values(by="Gesamtwert", ascending=False).reset_index(drop=True)
+
+    # Pokale vergeben
+    pokale = ["🥇", "🥈", "🥉"] + [""] * (len(leaderboard_df) - 3)
+    leaderboard_df.insert(0, "Platz", [f"{pokale[i]} {i+1}" for i in range(len(leaderboard_df))])
+
+    st.table(leaderboard_df.style.format({
+        "Gesamtwert": "{:.2f} €",
+        "Bargeld": "{:.2f} €",
+        "Depotwert": "{:.2f} €"
+    }))
+
+# 🏆 Rangliste
 elif page == "🏆 Rangliste":
     st.subheader("🏆 Rangliste")
 
