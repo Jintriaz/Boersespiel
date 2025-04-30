@@ -1,0 +1,129 @@
+symbol,name
+AAPL,Apple Inc.
+MSFT,Microsoft Corp.
+GOOGL,Alphabet Inc.
+TSLA,Tesla Inc.
+AMZN,Amazon.com Inc.
+BTC-USD,Bitcoin
+ETH-USD,Ethereum
+BNB-USD,Binance Coin
+XRP-USD,XRP
+ADA-USD,Cardano
+DOGE-USD,DOGECOIN
+SOL-USD,Solana
+DOT-USD,Polkadot
+SHIB-USD,Shiba Inu
+NVDA,NVIDIA Corporation
+TSM,Taiwan Semiconductor Manufacturing Company Ltd.
+INTC,Intel Corporation
+AMD,Advanced Micro Devices Inc.
+META,Meta Platforms Inc.
+PFE,Pfizer Inc.
+JNJ,Johnson & Johnson
+WBA,Walgreens Boots Alliance Inc.
+NIO,NIO Inc.
+LI,Xiaopeng Motors
+XPEV,XPeng Inc.
+PLTR,Palantir Technologies Inc.
+GM,General Motors Company
+F,Ford Motor Company
+NKE,Nike Inc.
+DIS,The Walt Disney Company
+NFLX,Netflix Inc.
+KO,Coca-Cola Company (The)
+PEP,PepsiCo Inc.
+ORCL,Oracle Corporation
+ADBE,Adobe Inc.
+PYPL,PayPal Holdings Inc.
+UBER,Uber Technologies Inc.
+LYFT,LYFT Inc.
+SNAP,Snap Inc.
+ZM,Zoom Video Communications Inc.
+OKTA,Okta Inc.
+COIN,Coinbase Global Inc.
+HBAN,Huntington Bancshares Incorporated
+KEY,KeyCorp
+RF,Regions Financial Corporation
+DXC,DXC Technology Company
+ON,ON Semiconductor Corporation
+SPY,SPDR S&P 500 ETF Trust
+IVV,iShares Core S&P 500 ETF
+VOO,Vanguard S&P 500 ETF
+QQQ,Invesco QQQ Trust
+IWM,iShares Russell 2000 ETF
+DIA,SPDR Dow Jones Industrial Average ETF Trust
+EEM,iShares MSCI Emerging Markets ETF
+EFA,iShares MSCI EAFE ETF
+AGG,iShares Core U.S. Aggregate Bond ETF
+TLT,iShares 20+ Year Treasury Bond ETF
+IEF,iShares 7-10 Year Treasury Bond ETF
+GLD,SPDR Gold Shares
+SLV,ISHARES SILVER TRUST
+USO,United States Oil Fund LP
+XLF,Financial Select Sector SPDR Fund
+VGT, Vanguard Information Technology ETF
+IXUS,iShares MSCI USA ETF
+ACWI,iShares MSCI All Country World Index ETF
+VEU,Vanguard FTSE All-World ex-US ETF
+BND,Vanguard Total Bond Market ETF
+VNQ,Vanguard Real Estate ETF
+VXX,iPath® S&P 500® VIX Short-Term Futures ETN
+ALV.DE,Allianz SE
+SAP.DE,SAP SE
+SIEMENS.DE,Siemens AG
+BMW.DE,BMW AG
+DTE.DE,Deutsche Telekom AG
+FME.DE,Fresenius Medical Care AG & Co. KGaA
+DBK.DE,Deutsche Bank AG
+CRS.DE,Thyssenkrupp AG
+DAI.DE,Daimler Truck Holding AG
+ADS.DE,Adidas AG
+IFX.DE,Infineon Technologies AG
+HEI.DE,HeidelbergCement AG
+MRK.DE,Merck KGaA
+BAS.DE,BASF SE
+BAYN.DE,Bayer AG
+LIN.DE,Linde PLC
+PUM.DE,Puma SE
+VNA3.DE,Volkswagen AG (VW)
+PAH3.DE,Porsche Automobil Holding SE
+MUV2.DE,Münchener Rückversicherungs-Gesellschaft
+IBE.MC,Iberdrola S.A. (Spanien)
+SAN.MC,Santander S.A. (Spanien)
+ENEL.MI,Enel S.p.A. (Italien)
+STM.ASX,STMicroelectronics N.V. (Niederlande/Frankreich)
+RI.NYSE,Europe PMC (L’Oréal)
+OR.PA,LVMH Moët Hennessy - Louis Vuitton
+BN.PA,BNP Paribas
+CAC.PA,CAC 40 Index (Dummy für Indexfonds)
+EUNA.DE,iShares Core MSCI Europe UCITS ETF
+CSXP.L,CSX Corporation (europäische Tochter)
+EUNA.DE,iShares Core MSCI Europe UCITS ETF
+SXR8.L,iShares Core MSCI Europe IMI UCITS ETF
+SWDA.L,SPDR MSCI World UCITS ETF
+IEPR.L,iShares Core MSCI Europe TRN UCITS ETF
+EZUS.L,iShares MSCI USA UCITS ETF
+IBTM.L,iShares Core € Aggregate Bond UCITS ETF
+AGGG.L,iShares Core Global Aggregate Bond UCITS ETF
+EMIM.L,iShares Core MSCI Emerging Markets IMI UCITS ETF
+TSLR.L,ETFS HAN-GIN Solar Energy UCITS ETF
+GRID.L,ETFS HAN-GIN Global Renewable Energy UCITS ETF
+CLNA.L,L&G Longer Dated Climate Impact UCITS ETF
+DIGA.L,UBS CM CI US Digital Economy UCITS ETF
+BTC-USD,Bitcoin
+ETH-USD,Ethereum
+BNB-USD,Binance Coin
+XRP-USD,XRP
+ADA-USD,Cardano
+DOGE-USD,DOGECOIN
+SOL-USD,Solana
+DOT-USD,Polkadot
+SHIB-USD,Shiba Inu
+MATIC-USD, Polygon
+LINK-USD,Chainlink
+^GDAXI,Deutscher Aktienindex (DAX)
+^FTSE,FTSE 100 Index (UK)
+^STOXX50E,EURO STOXX 50 Index
+^FCHI,CAC 40 Index (Frankreich)
+^IBEX,IBEX 35 Index (Spanien)
+^IT40,FTSE MIB Index (Italien)
